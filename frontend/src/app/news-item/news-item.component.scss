@@ -1,0 +1,14 @@
+.news-item {
+  display: flex;
+  flex-direction: row;
+
+  .news-item__image {
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+    }
+  }
+}

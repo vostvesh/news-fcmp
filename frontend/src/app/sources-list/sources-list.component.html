@@ -1,0 +1,5 @@
+<div class="sources-list">
+  <select (change)="onSelect($event)">
+    <option *ngFor="let source of sources" [value]="source.id">{{source.name}}</option>
+  </select>
+</div>

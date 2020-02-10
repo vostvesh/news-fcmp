@@ -1,0 +1,17 @@
+.header {
+  height: 100%;
+}
+
+.header__top {
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__title {
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

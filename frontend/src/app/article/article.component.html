@@ -1,0 +1,14 @@
+<div class="article">
+  <div class="article__image">
+    <img [src]="article.urlToImage" />
+  </div>
+  <div class="article__content">
+    <div class="article__title">{{article.title}}</div>
+    <div class="article__description">{{article.description}}</div>
+    <div class="article__date">{{article.publishedAt}}</div>
+  </div>
+  <div class="article__buttons">
+    <button>Edit</button>
+    <button>Delete</button>
+  </div>
+</div>

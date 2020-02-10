@@ -1,0 +1,14 @@
+.sidebar {
+  width: 100%;
+  background-color: thistle;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}

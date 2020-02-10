@@ -1,0 +1,50 @@
+<form [formGroup]="form" class="new-article" (ngSubmit)="onSubmit()">
+  <div class="form__item">
+    <label for="heading"
+      >Heading
+      <input type="text" name="heading" formControlName="heading" />
+    </label>
+  </div>
+  <div class="form__item">
+    <label for="shortDescription"
+      >Short Description
+      <input
+        type="text"
+        name="shortDescription"
+        formControlName="shortDescription"
+      />
+    </label>
+  </div>
+  <div class="form__item">
+    <label for="content"
+      >Content
+      <input type="text" name="content" formControlName="content" />
+    </label>
+  </div>
+  <div class="form__item">
+    <label for="image"
+      >Image
+      <input type="text" name="image" formControlName="image" />
+    </label>
+  </div>
+  <div class="form__item">
+    <label for="date"
+      >Date
+      <input type="text" name="date" formControlName="date" />
+    </label>
+  </div>
+  <div class="form__item">
+    <label for="author"
+      >Author
+      <input type="text" name="author" formControlName="author" />
+    </label>
+  </div>
+  <div class="form__item">
+    <label for="sourceUrl"
+      >Source Url
+      <input type="text" name="sourceUrl" formControlName="sourceUrl" />
+    </label>
+  </div>
+  <button type="submit">Save</button>
+  <button type="reset">Cancel</button>
+</form>

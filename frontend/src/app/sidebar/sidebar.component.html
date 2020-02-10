@@ -1,0 +1,11 @@
+<div class="sidebar" *ngIf="isHeaderSearchVisible">
+  <div class="sidebar-item">
+    <app-sources-list></app-sources-list>
+  </div>
+  <div class="sidebar-item">
+    <app-sources-filter></app-sources-filter>
+  </div>
+  <div class="sidebar-item">
+    <a routerLink="/new-article" routerLinkActive="active">Add Article</a>
+  </div>
+</div>
